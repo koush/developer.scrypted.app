@@ -3,3 +3,19 @@
 body {
     font-family: "Lato", sans-serif;
 }
+
+.container-main {
+    flex-direction: row-reverse;
+}
+
+.col-content {
+    margin-left: 2rem;
+}
+
+.tsd-navigation.settings {
+    display: none;
+}
+
+.tsd-navigation.primary {
+    display: none;
+}
