@@ -11,7 +11,7 @@ sidebar.forEach((item) => {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Scrypted Developer",
+  title: "Scrypted Development",
   head: [
     ['link', { rel: 'icon', href: '/img/icons/apple-icon-180.png' }],
     ['link', { rel: 'apple-touch-icon', href: '/img/icons/apple-icon-180.png' }],
@@ -36,7 +36,17 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Scrypted SDK', link: '/',
+        items: [
+          {
+            text: 'Getting Started',
+            link: "/",
+          },
+          {
+            text: 'Plugins',
+            link: "/plugins",
+          }
+
+        ],
       },
       ...sidebar,
     ],
