@@ -9,17 +9,17 @@ E.g. TensorFlow, OpenCV, or a Coral TPU.
 
 ### generateObjectDetections()
 
-> **generateObjectDetections**(`videoFrames`, `session`): `Promise`\<`AsyncGenerator`\<[`ObjectDetectionGeneratorResult`](ObjectDetectionGeneratorResult.md), `void`, `unknown`\>\>
+> **generateObjectDetections**(`videoFrames`, `session`): `Promise`\<`AsyncGenerator`\<[`ObjectDetectionGeneratorResult`](ObjectDetectionGeneratorResult.md), `void`, `any`\>\>
 
 #### Parameters
 
-• **videoFrames**: [`MediaObject`](MediaObject.md) \| `AsyncGenerator`\<[`VideoFrame`](VideoFrame.md), `void`, `unknown`\>
+• **videoFrames**: [`MediaObject`](MediaObject.md) \| `AsyncGenerator`\<[`VideoFrame`](VideoFrame.md), `void`, `any`\>
 
 • **session**: [`ObjectDetectionGeneratorSession`](ObjectDetectionGeneratorSession.md)
 
 #### Returns
 
-`Promise`\<`AsyncGenerator`\<[`ObjectDetectionGeneratorResult`](ObjectDetectionGeneratorResult.md), `void`, `unknown`\>\>
+`Promise`\<`AsyncGenerator`\<[`ObjectDetectionGeneratorResult`](ObjectDetectionGeneratorResult.md), `void`, `any`\>\>
 
 ***
 

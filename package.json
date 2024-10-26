@@ -1,11 +1,15 @@
 {
   "name": "developer.scrypted.app",
   "scripts": {
+    "gen": "typedoc",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
-    "vitepress": "^1.4.1"
+    "vitepress": "^1.4.1",
+    "typedoc": "^0.26.10",
+    "typedoc-plugin-markdown": "^4.2.9",
+    "typedoc-vitepress-theme": "^1.0.2"
   }
 }

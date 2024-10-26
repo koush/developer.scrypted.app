@@ -14,14 +14,14 @@ Generic bidirectional stream connection.
 
 ### connectStream()
 
-> **connectStream**(`input`?, `options`?): `Promise`\<`AsyncGenerator`\<`Output`, `void`, `unknown`\>\>
+> **connectStream**(`input`?, `options`?): `Promise`\<`AsyncGenerator`\<`Output`, `void`, `any`\>\>
 
 #### Parameters
 
-• **input?**: `AsyncGenerator`\<`Input`, `void`, `unknown`\>
+• **input?**: `AsyncGenerator`\<`Input`, `void`, `any`\>
 
 • **options?**: `any`
 
 #### Returns
 
-`Promise`\<`AsyncGenerator`\<`Output`, `void`, `unknown`\>\>
+`Promise`\<`AsyncGenerator`\<`Output`, `void`, `any`\>\>

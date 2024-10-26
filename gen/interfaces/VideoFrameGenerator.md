@@ -6,7 +6,7 @@
 
 ### generateVideoFrames()
 
-> **generateVideoFrames**(`mediaObject`, `options`?): `Promise`\<`AsyncGenerator`\<[`VideoFrame`](VideoFrame.md), `void`, `unknown`\>\>
+> **generateVideoFrames**(`mediaObject`, `options`?): `Promise`\<`AsyncGenerator`\<[`VideoFrame`](VideoFrame.md), `void`, `any`\>\>
 
 #### Parameters
 
@@ -16,4 +16,4 @@
 
 #### Returns
 
-`Promise`\<`AsyncGenerator`\<[`VideoFrame`](VideoFrame.md), `void`, `unknown`\>\>
+`Promise`\<`AsyncGenerator`\<[`VideoFrame`](VideoFrame.md), `void`, `any`\>\>
