@@ -3,10 +3,6 @@ const sidebar: any[] = require(('../gen/typedoc-sidebar.json'));
 sidebar.forEach((item) => {
   if (['Core Reference', 'Device Provider Reference'].includes(item.text))
     delete item.collapsed;
-  const items: any[] = item.items;
-  for (const i of items) {
-    i.link = i.link.substring('/developer.scrypted.app'.length);
-  }
 });
 
 // https://vitepress.dev/reference/site-config
