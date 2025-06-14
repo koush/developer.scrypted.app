@@ -4,7 +4,7 @@
 
 ## Extends
 
-- [`VideoStreamOptions`](VideoStreamOptions.md)
+- [`RequestStreamOptions`](RequestStreamOptions.md).[`VideoStreamOptions`](VideoStreamOptions.md)
 
 ## Properties
 
@@ -127,6 +127,16 @@ Key Frame interval in frames.
 #### Inherited from
 
 [`VideoStreamOptions`](VideoStreamOptions.md).[`h264Info`](VideoStreamOptions.md#h264info)
+
+***
+
+### alternateCodecs?
+
+> `optional` **alternateCodecs**: `string`[]
+
+#### Inherited from
+
+[`RequestStreamOptions`](RequestStreamOptions.md).[`alternateCodecs`](RequestStreamOptions.md#alternatecodecs)
 
 ***
 

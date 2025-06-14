@@ -94,6 +94,12 @@
 
 ***
 
+### pressButton
+
+> **pressButton**: `"pressButton"`
+
+***
+
 ### sendNotification
 
 > **sendNotification**: `"sendNotification"`
@@ -199,6 +205,18 @@
 ### setPrivacyMasks
 
 > **setPrivacyMasks**: `"setPrivacyMasks"`
+
+***
+
+### getVideoTextOverlays
+
+> **getVideoTextOverlays**: `"getVideoTextOverlays"`
+
+***
+
+### setVideoTextOverlay
+
+> **setVideoTextOverlay**: `"setVideoTextOverlay"`
 
 ***
 
@@ -556,6 +574,12 @@
 
 ***
 
+### forkInterface
+
+> **forkInterface**: `"forkInterface"`
+
+***
+
 ### trackObjects
 
 > **trackObjects**: `"trackObjects"`
@@ -637,3 +661,27 @@
 ### getTTYSettings
 
 > **getTTYSettings**: `"getTTYSettings"`
+
+***
+
+### getChatCompletion
+
+> **getChatCompletion**: `"getChatCompletion"`
+
+***
+
+### streamChatCompletion
+
+> **streamChatCompletion**: `"streamChatCompletion"`
+
+***
+
+### callLLMTool
+
+> **callLLMTool**: `"callLLMTool"`
+
+***
+
+### getLLMTools
+
+> **getLLMTools**: `"getLLMTools"`

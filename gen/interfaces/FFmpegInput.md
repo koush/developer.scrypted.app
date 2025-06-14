@@ -50,27 +50,13 @@ Alternate media urls for this FFmpegInput.
 
 ***
 
-### destinationVideoBitrate?
-
-> `optional` **destinationVideoBitrate**: `number`
-
-***
-
-### h264EncoderArguments?
+### ~~h264EncoderArguments?~~
 
 > `optional` **h264EncoderArguments**: `string`[]
 
-***
+#### Deprecated
 
-### videoDecoderArguments?
-
-> `optional` **videoDecoderArguments**: `string`[]
-
-***
-
-### h264FilterArguments?
-
-> `optional` **h264FilterArguments**: `string`[]
+Rebroadast use only.
 
 ***
 

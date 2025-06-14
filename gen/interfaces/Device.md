@@ -22,7 +22,7 @@ The native id that is used by the DeviceProvider used to internally identify pro
 
 ### type
 
-> **type**: [`ScryptedDeviceType`](../enumerations/ScryptedDeviceType.md)
+> **type**: `string`
 
 ***
 

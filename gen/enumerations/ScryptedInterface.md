@@ -52,6 +52,24 @@
 
 ***
 
+### Buttons
+
+> **Buttons**: `"Buttons"`
+
+***
+
+### PressButtons
+
+> **PressButtons**: `"PressButtons"`
+
+***
+
+### Sensors
+
+> **Sensors**: `"Sensors"`
+
+***
+
 ### Notifier
 
 > **Notifier**: `"Notifier"`
@@ -127,6 +145,12 @@
 ### VideoCameraMask
 
 > **VideoCameraMask**: `"VideoCameraMask"`
+
+***
+
+### VideoTextOverlays
+
+> **VideoTextOverlays**: `"VideoTextOverlays"`
 
 ***
 
@@ -286,6 +310,12 @@
 
 ***
 
+### Sleep
+
+> **Sleep**: `"Sleep"`
+
+***
+
 ### PowerSensor
 
 > **PowerSensor**: `"PowerSensor"`
@@ -442,6 +472,12 @@
 
 ***
 
+### ClusterForkInterface
+
+> **ClusterForkInterface**: `"ClusterForkInterface"`
+
+***
+
 ### ObjectTracker
 
 > **ObjectTracker**: `"ObjectTracker"`
@@ -529,6 +565,18 @@
 ### TTYSettings
 
 > **TTYSettings**: `"TTYSettings"`
+
+***
+
+### ChatCompletion
+
+> **ChatCompletion**: `"ChatCompletion"`
+
+***
+
+### LLMTools
+
+> **LLMTools**: `"LLMTools"`
 
 ***
 

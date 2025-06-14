@@ -4,6 +4,7 @@
 
 ## Extended by
 
+- [`RequestAudioStreamOptions`](RequestAudioStreamOptions.md)
 - [`AudioStreamConfiguration`](AudioStreamConfiguration.md)
 
 ## Properties

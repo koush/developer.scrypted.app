@@ -42,7 +42,7 @@
 
 ### type?
 
-> `optional` **type**: `"string"` \| `"number"` \| `"boolean"` \| `"time"` \| `"button"` \| `"html"` \| `"script"` \| `"textarea"` \| `"day"` \| `"integer"` \| `"password"` \| `"device"` \| `"clippath"` \| `"interface"` \| `"date"` \| `"datetime"`
+> `optional` **type**: `"string"` \| `"number"` \| `"boolean"` \| `"time"` \| `"button"` \| `"html"` \| `"script"` \| `"textarea"` \| `"day"` \| `"integer"` \| `"date"` \| `"password"` \| `"device"` \| `"clippath"` \| `"interface"` \| `"datetime"` \| `"timerange"` \| `"daterange"` \| `"datetimerange"` \| `"radiobutton"` \| `"radiopanel"`
 
 ***
 
@@ -50,7 +50,7 @@
 
 > `optional` **range**: [`number`, `number`]
 
-The range of allowed numbers, if any, when the type is 'number'.
+The range of allowed numbers or dates/times, if any, when the type is number, timerange, or daterange, or datetimerange.
 
 ***
 
@@ -63,6 +63,24 @@ The range of allowed numbers, if any, when the type is 'number'.
 ### choices?
 
 > `optional` **choices**: `string`[]
+
+***
+
+### icon?
+
+> `optional` **icon**: `string`
+
+***
+
+### icons?
+
+> `optional` **icons**: `string`[]
+
+***
+
+### radioGroups?
+
+> `optional` **radioGroups**: `string`[]
 
 ***
 

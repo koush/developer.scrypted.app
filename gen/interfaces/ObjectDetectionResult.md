@@ -56,6 +56,14 @@ The certainty that this is correct tracked object.
 
 ***
 
+### clipped?
+
+> `optional` **clipped**: `boolean`
+
+Flag that indicates whether the detection was clipped by the detection input and may not be a full bounding box.
+
+***
+
 ### className
 
 > **className**: `string`
@@ -85,15 +93,6 @@ The label of the object, if it was recognized as a familiar object (person, pet,
 > `optional` **labelScore**: `number`
 
 The score of the label.
-
-***
-
-### descriptor?
-
-> `optional` **descriptor**: `string`
-
-A base64 encoded Float32Array that represents the vector descriptor of the detection.
-Can be used to compute euclidian distance to determine similarity.
 
 ***
 

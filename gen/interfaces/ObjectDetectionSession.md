@@ -42,6 +42,16 @@
 
 ***
 
+### clusterWorkerId?
+
+> `optional` **clusterWorkerId**: `string`
+
+#### Inherited from
+
+[`ObjectDetectionGeneratorSession`](ObjectDetectionGeneratorSession.md).[`clusterWorkerId`](ObjectDetectionGeneratorSession.md#clusterworkerid)
+
+***
+
 ### batch?
 
 > `optional` **batch**: `number`

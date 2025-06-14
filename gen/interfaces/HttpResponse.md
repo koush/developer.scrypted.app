@@ -8,13 +8,15 @@ Response object provided by the HttpRequestHandler.
 
 ### send()
 
-#### send(body)
+#### send(body, options)
 
-> **send**(`body`): `void`
+> **send**(`body`, `options`?): `void`
 
 ##### Parameters
 
 • **body**: `string`
+
+• **options?**: [`HttpResponseOptions`](HttpResponseOptions.md)
 
 ##### Returns
 
@@ -22,39 +24,13 @@ Response object provided by the HttpRequestHandler.
 
 #### send(body, options)
 
-> **send**(`body`, `options`): `void`
-
-##### Parameters
-
-• **body**: `string`
-
-• **options**: [`HttpResponseOptions`](HttpResponseOptions.md)
-
-##### Returns
-
-`void`
-
-#### send(body)
-
-> **send**(`body`): `void`
+> **send**(`body`, `options`?): `void`
 
 ##### Parameters
 
 • **body**: `Buffer`
 
-##### Returns
-
-`void`
-
-#### send(body, options)
-
-> **send**(`body`, `options`): `void`
-
-##### Parameters
-
-• **body**: `Buffer`
-
-• **options**: [`HttpResponseOptions`](HttpResponseOptions.md)
+• **options?**: [`HttpResponseOptions`](HttpResponseOptions.md)
 
 ##### Returns
 
@@ -64,43 +40,47 @@ Response object provided by the HttpRequestHandler.
 
 ### sendFile()
 
-#### sendFile(path)
+> **sendFile**(`path`, `options`?): `void`
 
-> **sendFile**(`path`): `void`
-
-##### Parameters
+#### Parameters
 
 • **path**: `string`
 
-##### Returns
+• **options?**: [`HttpResponseOptions`](HttpResponseOptions.md)
 
-`void`
-
-#### sendFile(path, options)
-
-> **sendFile**(`path`, `options`): `void`
-
-##### Parameters
-
-• **path**: `string`
-
-• **options**: [`HttpResponseOptions`](HttpResponseOptions.md)
-
-##### Returns
+#### Returns
 
 `void`
 
 ***
 
-### sendSocket()
+### ~~sendSocket()~~
 
-> **sendSocket**(`socket`, `options`): `void`
+> **sendSocket**(`socket`, `options`?): `void`
 
 #### Parameters
 
 • **socket**: `any`
 
-• **options**: [`HttpResponseOptions`](HttpResponseOptions.md)
+• **options?**: [`HttpResponseOptions`](HttpResponseOptions.md)
+
+#### Returns
+
+`void`
+
+#### Deprecated
+
+***
+
+### sendStream()
+
+> **sendStream**(`stream`, `options`?): `void`
+
+#### Parameters
+
+• **stream**: `AsyncGenerator`\<`Buffer`, `void`, `any`\>
+
+• **options?**: [`HttpResponseOptions`](HttpResponseOptions.md)
 
 #### Returns
 

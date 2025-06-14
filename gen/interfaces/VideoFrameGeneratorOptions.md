@@ -58,7 +58,7 @@
 
 ### format?
 
-> `optional` **format**: [`ImageFormat`](../type-aliases/ImageFormat.md)
+> `optional` **format**: `string`
 
 #### Inherited from
 
@@ -81,3 +81,9 @@
 ### firstFrameOnly?
 
 > `optional` **firstFrameOnly**: `boolean`
+
+***
+
+### clusterWorkerId?
+
+> `optional` **clusterWorkerId**: `string`

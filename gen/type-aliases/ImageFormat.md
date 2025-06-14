@@ -2,4 +2,4 @@
 
 # Type Alias: ImageFormat
 
-> **ImageFormat**: `"gray"` \| `"rgba"` \| `"rgb"` \| `"jpg"`
+> **ImageFormat**: `"gray"` \| `"rgba"` \| `"rgb"` \| `"jpg"` \| `string`

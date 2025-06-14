@@ -28,6 +28,16 @@
 
 ***
 
+### android?
+
+> `optional` **android**: `object`
+
+#### channel?
+
+> `optional` **channel**: `string`
+
+***
+
 ### data?
 
 > `optional` **data**: `any`
@@ -64,9 +74,17 @@
 
 ***
 
+### critical?
+
+> `optional` **critical**: `boolean`
+
+***
+
 ### tag?
 
 > `optional` **tag**: `string`
+
+Collapse key/id.
 
 ***
 

@@ -2,4 +2,4 @@
 
 # Type Alias: SerializableType
 
-> **SerializableType**: `null` \| `undefined` \| `number` \| `string` \| `object` \| [`SerializableType`](SerializableType.md)[]
+> **SerializableType**: `null` \| `undefined` \| `boolean` \| `number` \| `string` \| `object` \| [`SerializableType`](SerializableType.md)[]

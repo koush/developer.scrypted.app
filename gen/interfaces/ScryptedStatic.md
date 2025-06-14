@@ -36,9 +36,15 @@
 
 ***
 
-### serverVersion?
+### clusterManager
 
-> `optional` **serverVersion**: `string`
+> **clusterManager**: [`ClusterManager`](ClusterManager.md)
+
+***
+
+### serverVersion
+
+> **serverVersion**: `string`
 
 ***
 

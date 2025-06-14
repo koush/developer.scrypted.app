@@ -50,4 +50,4 @@
 
 ### format?
 
-> `optional` **format**: [`ImageFormat`](../type-aliases/ImageFormat.md)
+> `optional` **format**: `string`

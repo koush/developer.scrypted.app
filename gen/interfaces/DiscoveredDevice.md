@@ -26,7 +26,7 @@ Identifying information such as IP Address or Serial Number.
 
 ### type
 
-> **type**: [`ScryptedDeviceType`](../enumerations/ScryptedDeviceType.md)
+> **type**: `string`
 
 ***
 

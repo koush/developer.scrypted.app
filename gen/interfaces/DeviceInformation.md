@@ -69,3 +69,9 @@
 #### android?
 
 > `optional` **android**: `string`
+
+***
+
+### description?
+
+> `optional` **description**: `string`

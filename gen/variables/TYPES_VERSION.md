@@ -2,4 +2,4 @@
 
 # Variable: TYPES\_VERSION
 
-> `const` **TYPES\_VERSION**: `"0.3.63"` = `"0.3.63"`
+> `const` **TYPES\_VERSION**: `"0.5.16"` = `"0.5.16"`

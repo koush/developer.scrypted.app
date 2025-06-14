@@ -108,7 +108,7 @@
 
 ### providedName?
 
-> `optional` **providedName**: [`ScryptedDeviceType`](../enumerations/ScryptedDeviceType.md)
+> `optional` **providedName**: `string`
 
 #### Inherited from
 
@@ -128,7 +128,7 @@
 
 ### providedType?
 
-> `optional` **providedType**: [`ScryptedDeviceType`](../enumerations/ScryptedDeviceType.md)
+> `optional` **providedType**: `string`
 
 #### Inherited from
 
@@ -158,7 +158,7 @@
 
 ### type?
 
-> `optional` **type**: [`ScryptedDeviceType`](../enumerations/ScryptedDeviceType.md)
+> `optional` **type**: `string`
 
 #### Inherited from
 
@@ -223,6 +223,26 @@
 #### Inherited from
 
 [`DeviceBase`](DeviceBase.md).[`hsv`](DeviceBase.md#hsv)
+
+***
+
+### buttons?
+
+> `optional` **buttons**: `string`[]
+
+#### Inherited from
+
+[`DeviceBase`](DeviceBase.md).[`buttons`](DeviceBase.md#buttons)
+
+***
+
+### sensors
+
+> **sensors**: `Record`\<`string`, [`Sensor`](../interfaces/Sensor.md)\>
+
+#### Inherited from
+
+[`DeviceBase`](DeviceBase.md).[`sensors`](DeviceBase.md#sensors)
 
 ***
 
@@ -423,6 +443,16 @@
 #### Inherited from
 
 [`DeviceBase`](DeviceBase.md).[`tampered`](DeviceBase.md#tampered)
+
+***
+
+### sleeping?
+
+> `optional` **sleeping**: `boolean`
+
+#### Inherited from
+
+[`DeviceBase`](DeviceBase.md).[`sleeping`](DeviceBase.md#sleeping)
 
 ***
 

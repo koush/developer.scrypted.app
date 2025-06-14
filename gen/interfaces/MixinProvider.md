@@ -14,7 +14,7 @@ Called by the system to determine if this provider can create a mixin for the su
 
 #### Parameters
 
-• **type**: [`ScryptedDeviceType`](../enumerations/ScryptedDeviceType.md)
+• **type**: `string`
 
 • **interfaces**: `string`[]
 

@@ -124,6 +124,18 @@
 
 ***
 
+### buttons
+
+> **buttons**: `"buttons"`
+
+***
+
+### sensors
+
+> **sensors**: `"sensors"`
+
+***
+
 ### running
 
 > **running**: `"running"`
@@ -241,6 +253,12 @@
 ### tampered
 
 > **tampered**: `"tampered"`
+
+***
+
+### sleeping
+
+> **sleeping**: `"sleeping"`
 
 ***
 

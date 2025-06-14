@@ -105,7 +105,7 @@
 
 ### providedName?
 
-> `optional` **providedName**: [`ScryptedDeviceType`](../enumerations/ScryptedDeviceType.md)
+> `optional` **providedName**: `string`
 
 #### Implementation of
 
@@ -125,7 +125,7 @@
 
 ### providedType?
 
-> `optional` **providedType**: [`ScryptedDeviceType`](../enumerations/ScryptedDeviceType.md)
+> `optional` **providedType**: `string`
 
 #### Implementation of
 
@@ -155,7 +155,7 @@
 
 ### type?
 
-> `optional` **type**: [`ScryptedDeviceType`](../enumerations/ScryptedDeviceType.md)
+> `optional` **type**: `string`
 
 #### Implementation of
 
@@ -220,6 +220,26 @@
 #### Implementation of
 
 [`DeviceState`](../interfaces/DeviceState.md).[`hsv`](../interfaces/DeviceState.md#hsv)
+
+***
+
+### buttons?
+
+> `optional` **buttons**: `string`[]
+
+#### Implementation of
+
+[`DeviceState`](../interfaces/DeviceState.md).[`buttons`](../interfaces/DeviceState.md#buttons)
+
+***
+
+### sensors
+
+> **sensors**: `Record`\<`string`, [`Sensor`](../interfaces/Sensor.md)\>
+
+#### Implementation of
+
+[`DeviceState`](../interfaces/DeviceState.md).[`sensors`](../interfaces/DeviceState.md#sensors)
 
 ***
 
@@ -420,6 +440,16 @@
 #### Implementation of
 
 [`DeviceState`](../interfaces/DeviceState.md).[`tampered`](../interfaces/DeviceState.md#tampered)
+
+***
+
+### sleeping?
+
+> `optional` **sleeping**: `boolean`
+
+#### Implementation of
+
+[`DeviceState`](../interfaces/DeviceState.md).[`sleeping`](../interfaces/DeviceState.md#sleeping)
 
 ***
 

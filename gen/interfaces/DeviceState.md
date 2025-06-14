@@ -58,7 +58,7 @@
 
 ### providedName?
 
-> `optional` **providedName**: [`ScryptedDeviceType`](../enumerations/ScryptedDeviceType.md)
+> `optional` **providedName**: `string`
 
 ***
 
@@ -70,7 +70,7 @@
 
 ### providedType?
 
-> `optional` **providedType**: [`ScryptedDeviceType`](../enumerations/ScryptedDeviceType.md)
+> `optional` **providedType**: `string`
 
 ***
 
@@ -88,7 +88,7 @@
 
 ### type?
 
-> `optional` **type**: [`ScryptedDeviceType`](../enumerations/ScryptedDeviceType.md)
+> `optional` **type**: `string`
 
 ***
 
@@ -125,6 +125,18 @@
 ### hsv?
 
 > `optional` **hsv**: [`ColorHsv`](ColorHsv.md)
+
+***
+
+### buttons?
+
+> `optional` **buttons**: `string`[]
+
+***
+
+### sensors
+
+> **sensors**: `Record`\<`string`, [`Sensor`](Sensor.md)\>
 
 ***
 
@@ -245,6 +257,12 @@
 ### tampered?
 
 > `optional` **tampered**: [`TamperState`](../type-aliases/TamperState.md)
+
+***
+
+### sleeping?
+
+> `optional` **sleeping**: `boolean`
 
 ***
 

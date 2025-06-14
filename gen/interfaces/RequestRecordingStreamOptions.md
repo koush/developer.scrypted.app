@@ -96,16 +96,6 @@ the ffmpeg tools, gstreamer.
 
 ***
 
-### audio?
-
-> `optional` **audio**: [`AudioStreamOptions`](AudioStreamOptions.md)
-
-#### Inherited from
-
-[`RequestMediaStreamOptions`](RequestMediaStreamOptions.md).[`audio`](RequestMediaStreamOptions.md#audio)
-
-***
-
 ### route?
 
 > `optional` **route**: `"direct"` \| `"internal"` \| `"external"`
@@ -204,6 +194,16 @@ will need to report packet loss indication.
 #### Inherited from
 
 [`RequestMediaStreamOptions`](RequestMediaStreamOptions.md).[`video`](RequestMediaStreamOptions.md#video)
+
+***
+
+### audio?
+
+> `optional` **audio**: [`RequestAudioStreamOptions`](RequestAudioStreamOptions.md)
+
+#### Inherited from
+
+[`RequestMediaStreamOptions`](RequestMediaStreamOptions.md).[`audio`](RequestMediaStreamOptions.md#audio)
 
 ***
 

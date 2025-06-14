@@ -2,6 +2,10 @@
 
 # Interface: ForkWorker
 
+## Extends
+
+- `Disposable`
+
 ## Properties
 
 ### nativeWorker?
@@ -9,6 +13,20 @@
 > `optional` **nativeWorker**: `ChildProcess` \| `Worker`
 
 ## Methods
+
+### \[dispose\]()
+
+> **\[dispose\]**(): `void`
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+`Disposable.[dispose]`
+
+***
 
 ### terminate()
 

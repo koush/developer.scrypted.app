@@ -130,24 +130,6 @@ Find a Scrypted device by name.
 
 ***
 
-### ~~getDeviceState()~~
-
-> **getDeviceState**(`id`): `object`
-
-Get the current state of a device.
-
-#### Parameters
-
-• **id**: `string`
-
-#### Returns
-
-`object`
-
-#### Deprecated
-
-***
-
 ### getSystemState()
 
 > **getSystemState**(): `object`

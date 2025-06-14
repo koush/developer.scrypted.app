@@ -18,11 +18,17 @@
 
 ### format?
 
-> `optional` **format**: [`ImageFormat`](../type-aliases/ImageFormat.md)
+> `optional` **format**: `string`
 
 The in raw memory format of this image.
 Operations of this image may only safely request
 this format, or a compressed format such as jpg.
+
+***
+
+### ffmpegFormats?
+
+> `optional` **ffmpegFormats**: `boolean`
 
 ## Methods
 

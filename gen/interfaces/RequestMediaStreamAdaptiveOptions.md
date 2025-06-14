@@ -31,3 +31,9 @@
 ### resize?
 
 > `optional` **resize**: `boolean`
+
+***
+
+### codecSwitch?
+
+> `optional` **codecSwitch**: `boolean`

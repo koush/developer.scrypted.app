@@ -4,9 +4,19 @@
 
 ## Enumeration Members
 
-### Builtin
+### ~~Builtin~~
 
 > **Builtin**: `"Builtin"`
+
+#### Deprecated
+
+***
+
+### Internal
+
+> **Internal**: `"Internal"`
+
+Internal devices will not show up in device lists unless explicitly searched.
 
 ***
 
@@ -124,6 +134,12 @@ Smart Speakers have two way audio.
 
 ***
 
+### RemoteDesktop
+
+> **RemoteDesktop**: `"RemoteDesktop"`
+
+***
+
 ### Event
 
 > **Event**: `"Event"`
@@ -205,6 +221,30 @@ Smart Speakers have two way audio.
 ### AirPurifier
 
 > **AirPurifier**: `"AirPurifier"`
+
+***
+
+### Internet
+
+> **Internet**: `"Internet"`
+
+***
+
+### Network
+
+> **Network**: `"Network"`
+
+***
+
+### Bridge
+
+> **Bridge**: `"Bridge"`
+
+***
+
+### LLM
+
+> **LLM**: `"LLM"`
 
 ***
 

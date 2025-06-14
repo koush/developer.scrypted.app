@@ -56,7 +56,7 @@ All devices in Scrypted implement ScryptedDevice, which contains the id, name, a
 
 ### providedName?
 
-> `optional` **providedName**: [`ScryptedDeviceType`](../enumerations/ScryptedDeviceType.md)
+> `optional` **providedName**: `string`
 
 ***
 
@@ -68,7 +68,7 @@ All devices in Scrypted implement ScryptedDevice, which contains the id, name, a
 
 ### providedType?
 
-> `optional` **providedType**: [`ScryptedDeviceType`](../enumerations/ScryptedDeviceType.md)
+> `optional` **providedType**: `string`
 
 ***
 
@@ -86,7 +86,7 @@ All devices in Scrypted implement ScryptedDevice, which contains the id, name, a
 
 ### type?
 
-> `optional` **type**: [`ScryptedDeviceType`](../enumerations/ScryptedDeviceType.md)
+> `optional` **type**: `string`
 
 ## Methods
 

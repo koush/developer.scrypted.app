@@ -27,3 +27,9 @@
 ### sourceId?
 
 > `optional` **sourceId**: `string`
+
+***
+
+### clusterWorkerId?
+
+> `optional` **clusterWorkerId**: `string`

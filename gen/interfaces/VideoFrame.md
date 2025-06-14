@@ -16,26 +16,6 @@
 
 ***
 
-### queued
-
-> **queued**: `number`
-
-***
-
 ### image
 
 > **image**: [`Image`](Image.md) & [`MediaObject`](MediaObject.md)
-
-## Methods
-
-### flush()
-
-> **flush**(`count`?): `Promise`\<`void`\>
-
-#### Parameters
-
-• **count?**: `number`
-
-#### Returns
-
-`Promise`\<`void`\>
