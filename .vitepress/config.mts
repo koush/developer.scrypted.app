@@ -53,5 +53,9 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/koush/scrypted' },
       // { icon: 'twitter', link: 'https://twitter.com/scryptedapp' },
     ]
-  }
+  },
+   ignoreDeadLinks: [
+    // chat completion from openai
+    '/tokenizer',
+  ]
 })
